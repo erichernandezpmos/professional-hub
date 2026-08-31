@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0b0618;
+  --foreground: #f4f0ff;
+  --accent: #a855f7;
+  --accent-2: #ec4899;
+  --card: #130b24;
+  --muted: #9ca3af;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-accent: var(--accent);
+  --color-accent-2: var(--accent-2);
+  --color-card: var(--card);
+  --color-muted: var(--muted);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+/* Soft purple/pink gradient blobs like the reference */
+.bg-blobs {
+  background:
+    radial-gradient(ellipse 80% 60% at 20% 20%, rgba(168, 85, 247, 0.25) 0%, transparent 50%),
+    radial-gradient(ellipse 70% 50% at 80% 30%, rgba(236, 72, 153, 0.2) 0%, transparent 50%),
+    radial-gradient(ellipse 60% 40% at 50% 80%, rgba(99, 102, 241, 0.15) 0%, transparent 50%),
+    #0b0618;
+}
+
+.card {
+  background: rgba(19, 11, 36, 0.7);
+  border: 1px solid rgba(168, 85, 247, 0.15);
+  backdrop-filter: blur(12px);
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #a855f7 0%, #ec4899 100%);
+  transition: all 0.2s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 25px rgba(168, 85, 247, 0.35);
+}
+
+.btn-secondary {
+  border: 1px solid rgba(168, 85, 247, 0.4);
+  transition: all 0.2s ease;
+}
+
+.btn-secondary:hover {
+  background: rgba(168, 85, 247, 0.1);
+  border-color: rgba(168, 85, 247, 0.7);
+}
