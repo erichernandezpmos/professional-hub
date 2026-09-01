@@ -19,19 +19,15 @@ npm run dev
 - Estilo dark (purple/pink) inspirado en referencia visual
 - Secciones: Hero, About + métricas, Featured Projects, Contact
 - Placeholders listos para reemplazar
+## Documentación
 
-## Documentación de continuación
+Este repositorio contiene la implementación pública del MVP de Professional Hub.
 
-Ver **CONTINUAR.md** para:
-- Cómo subir a GitHub
-- Deploy en Vercel
-- Orden de las siguientes secciones
-- Instrucciones exactas para ChatGPT / Claude
-
+La documentación interna de desarrollo y planificación no forma parte del repositorio público.
 ## Datos públicos incluidos
 
 - LinkedIn: https://www.linkedin.com/in/pmerichdz/
 - GitHub: https://github.com/erichernandezpmos
 - Email: erichernandezingeniero@gmail.com
 
-No se incluyen datos sensibles ni metodologías propietarias.
+
